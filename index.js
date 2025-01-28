@@ -5,7 +5,7 @@ import fs from 'fs'
 
 
 //Remélem most jó lesz
-
+// eddig nem jó
 
 let autok = [];
 let nextId = 0;
