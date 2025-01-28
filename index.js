@@ -1,7 +1,12 @@
 import express from 'express';
 import cors from 'cors';
 import fs from 'fs'
-hello
+
+
+
+//Remélem most jó lesz
+
+
 let autok = [];
 let nextId = 0;
 
