@@ -6,6 +6,7 @@ import fs from 'fs'
 
 //Remélem most jó lesz
 // eddig nem jó
+//vagy most vagy letorlom
 
 let autok = [];
 let nextId = 0;
