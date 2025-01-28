@@ -58,13 +58,11 @@ function delAuto(req, resp){
     } else resp.send( { error: 'Hiányzó paraméter!' } );
 }
 
-
 app.get('/', (req, resp) => resp.send('<h1>Autó v1.0.0</h1>'));
 app.get('/autok', (req, resp) => resp.send(autok));
 app.post('/auto', addAuto);
 app.put('/auto', modAuto);
 app.delete('/auto', delAuto);
-
 
 app.listen(88, (error) => {
     if(error) console.log(error); 
